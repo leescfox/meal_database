@@ -1,0 +1,45 @@
+.container {
+    width: 80vw;
+    display: flex;
+}
+
+.meal_img_div {
+    flex-grow: 35;
+    flex-basis: 0;
+}
+
+.rec_ingr_wrapper {
+    flex-grow: 45;
+    flex-basis: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.dish_name {
+    font-style: italic;
+}
+
+.dish_name,
+.recipe_line,
+.ingredients_line {
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.dish_img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.ingredients_list {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 2vw;
+}
+
+.recipe,
+.ingredients_list {
+    padding-left: 2vw;
+}

@@ -1,0 +1,45 @@
+.main {
+    justify-content: flex-start;
+}
+
+.meal_items {
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.food_item {
+    width: 20vw;
+    margin-bottom: 3rem;
+}
+
+.meal_img {
+    width: 15vw;
+}
+
+.meal_name {
+    padding: 0 0.5rem;
+    text-align: center;
+}
+
+.no_suitable {
+    margin-top: 25vh;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.meal_link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: min-content;
+    color: rgb(255, 142, 13);
+    cursor: pointer;
+    transition: color 0.15s ease-in;
+}
+
+.meal_link:hover {
+    color: rgb(235, 37, 37);
+}
